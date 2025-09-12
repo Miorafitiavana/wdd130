@@ -18,6 +18,8 @@ main img {
 }
 h1 {
     color: darkblue;
+    width: 100%;
+    white-space: nowrap;
 }
 img {
     width: 150px;
