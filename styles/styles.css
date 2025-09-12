@@ -17,6 +17,8 @@ main img {
     height: auto;
     border: 1px solid white;
     padding: 0;
+    box-shadow:0 0 30px grey;
+
 }
 h1 {
     color: darkblue;
@@ -29,6 +31,7 @@ img {
     height: auto;
     border: 1px solid white;
     padding: 0;
+    box-shadow:0 0 30px grey;
 }
 p {
     padding: 0;
