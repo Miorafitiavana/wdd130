@@ -13,7 +13,8 @@ main {
 main img {
     width: 150px;
     height: auto;
-    ...
+    border: 1px solid white;
+    padding: 0;
 }
 h1 {
     color: darkblue;
@@ -35,6 +36,7 @@ aside {
     background-color: #eee;
     color: rgba(26, 26, 91, 0.969);
     text-align: center;
+    padding: 0;
 }
 aside img {
     width: 200px;
