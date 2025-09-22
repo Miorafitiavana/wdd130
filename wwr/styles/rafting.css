@@ -23,6 +23,21 @@ header{
     background-color: var(--primary);
     color: var(--accent2-color);
 }
+
+nav{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    width: 100%;
+    padding: 0 1 rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-size: 18px;
+}
 .hero img {
     display: block;
     width: 100%;
@@ -84,7 +99,7 @@ h2{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent3-color);
-    color: white;
+    color: rgb(23, 33, 215);
 }
 
 article {
@@ -111,4 +126,16 @@ article {
     float: right;
     width: 125px;
     margin-left: auto;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+footer .socialmedia{
+    display: flex;
+    justify-content: center;
+    gap: 1rem
 }
