@@ -1,6 +1,6 @@
 *{
-    margin: 1;
-    padding: 0 rem;
+    margin: 1px;
+    padding: 0 ;
     box-sizing: border-box;
 }
 
@@ -141,7 +141,7 @@ h2{
     padding: 0.2rem;
 }
 
-./* History Section Layout */
+/* History Section Layout */
 .history {
   padding: 40px 20px;
   max-width: 1200px;
@@ -202,23 +202,30 @@ h2{
 
 footer {
     display: flex;
-    justify-content:right;
+    align-items: center;
     margin-top: 1rem;
     border-top: 1px solid #000;
 }
 
 footer p{
-   display: flex;
-   margin: 0;
-   align-items: center;
-   text-align: right;
-
+  margin: 0;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
 }
+
 footer .socialmedia{
     display: flex;
-    justify-content: right;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: right;
     padding: 16px;
     background-color: transparent;
-    gap: 1rem
+    gap: 0.5rem
+}
+
+footer .socialmedia img{
+    width: 40px;
+    height: auto;
+    display: block;
 }
