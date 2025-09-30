@@ -5,7 +5,7 @@
 }
 
 :root{
---primary:#347ea6;
+--primary:#102937;
 --secondary:#497d95;
 --secondary:#bdd7d7;;
 --accent1-color: #053128;
@@ -24,7 +24,7 @@ header{
     align-items: center;
     padding: 10px 20px;
     background-color: var(--primary);
-    color: var(--accent2-color);
+    color: white;
 }
 
 header img{
