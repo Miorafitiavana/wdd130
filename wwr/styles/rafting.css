@@ -88,7 +88,7 @@ nav,p,section,article{
     height: 400px;
     max-width: 100%;
 }
-.hero-content h1{
+.hero h1{
     position: absolute
 }
 
@@ -134,7 +134,7 @@ h2{
   font-size:14px;
   
 }
-.hero-content article img{
+.hero article img{
     float: right;
     width: 175px;
     height: auto;
