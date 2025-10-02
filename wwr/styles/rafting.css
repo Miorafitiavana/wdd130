@@ -88,15 +88,12 @@ nav,p,section,article{
     height: 400px;
     max-width: 100%;
 }
-.hero h1{
-    position: absolute
-}
 
 h1{
     z-index: 2;
 }
 
-h1{
+.hero h1{
     position: absolute;
     top: 20px;
     width: 100%;
