@@ -251,6 +251,12 @@ nav,p,section,article{
   margin-top: 20px;
 }
 
+.messages textarea{
+  margin: 1px;
+width: 454px;
+height: 75px;
+}
+
 .form-row label{
     align-self: flex-start;
     }
