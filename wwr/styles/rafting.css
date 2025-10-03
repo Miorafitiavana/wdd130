@@ -7,7 +7,6 @@
 :root{
 --primary:#102937;
 --secondary:#497d95;
---secondary:#bdd7d7;;
 --accent1-color: #053128;
 --accent2-color:#1abc9c;
 --accent3-color:rgb(249, 228, 0) ;
@@ -101,15 +100,7 @@ nav,p,section,article{
     
 }
 
-.history h2{
-    top: 20px;
-    width: 100%;
-    padding: 18px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent3-color);
-    color: var(--primary);
-}
+
 
 .Awaits h2{
    top: 20px;
@@ -153,12 +144,16 @@ nav,p,section,article{
 }
 
 .history h2 {
+  top: 20px;
+  width: 100%;
+  padding: 18px;
   text-align: center;
-  color: #212e34;
+  opacity: 0.7;
+  background-color: var(--accent3-color);
+  color: var(--primary);
   margin-bottom: 20px;
-   font-family: var(--heading-font);
-    color: var(--primary);
-    font-size: 35px;
+  font-family: var(--heading-font);
+  font-size: 35px;
 }
 
 .history-grid {
@@ -227,16 +222,16 @@ nav,p,section,article{
 }
 
 .map{
-  flex:1
-  height 100%;
+  flex: 1;
 }
+
 
 .map iframe{
   height: 100%;
 }
 
 .contact-form {
-  width: 4500px;
+  width: 450px;
 }
 .contact-form form {
   display: grid;
