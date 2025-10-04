@@ -1,8 +1,3 @@
-*{
-    margin: 1px;
-    padding: 0 ;
-    box-sizing: border-box;
-}
 
 :root{
 --primary:#102937;
@@ -14,6 +9,13 @@
 --heading-font: "Times New Roman", "Georgia", serif;
 --body-font: Arial, Helvetica, sans-serif;
 }
+
+*{
+    margin: 1px;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
 
 header{
     display: grid;
